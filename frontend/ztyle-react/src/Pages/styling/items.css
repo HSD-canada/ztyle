@@ -1,0 +1,35 @@
+.items-section{
+    position: absolute;
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 10%;
+    z-index: 0;
+ 
+
+}
+.items-section .wrapper .para1{
+    font-weight: 200;
+    font-size: calc(48rem/16);
+    line-height: calc(60rem/16);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+}
+.items-navtab{
+    width: 10%;
+    position: relative;
+    z-index: 1;
+}
+
+.items-section .wrapper{
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}

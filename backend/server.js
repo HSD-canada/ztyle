@@ -25,8 +25,8 @@ const server = http.createServer((req,res)=>{
     if(req_url.pathname==='/api/upload-image'){
         checkHeader(req,res,()=>parseIMG(req,res,()=>{remIMG(req,res)}));
     }
-    else if(req_url.pathname ==='/api/fetch-image'){
-        checkHeader(req,res,()=>parseJSON(req,res,()=>{fetchIMG(req,res)}));
+    else if(req_url.pathname ==='/api/modify-image'){
+        checkHeader(req,res,()=>parseIMG(req,res,()=>{res.end(req.image)}));
     }
     else if(req_url.pathname === "/api/verify-token"){
         checkHeader(req,res,()=>parseJSON(req,res,()=>verifyToken(req,res)));

@@ -1,0 +1,101 @@
+.calendar-section{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+    align-items: center;
+}
+.calendar-section h1{
+    font-weight: 200;
+    font-size: calc(48rem/16);
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+}
+
+.calendar-section .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calendar-section .main .wrapper{
+    display: flex;
+    overflow: scroll;
+    width: 70vw;
+    gap: 70px;
+}
+.calendar-section .main .wrapper div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calendar-section .main .wrapper div h1{
+    font-weight: 200;
+    font-size: calc(32rem/16);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+    
+    margin: 0;
+}
+.calendar-section .main .wrapper div .line{
+    width: 120%;
+    height: 1px;
+    background-color: white;
+}
+.calendar-section .main .wrapper .outfits{
+    margin-top: 40px;
+    width: 186px;
+    height: 250px;
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.01);
+    border: 1px solid #7A7A7A;
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.calendar-section .main .wrapper div .outfits img{
+    width: 100%;
+}
+.calendar-section .main .wrapper h2{
+    font-weight: 200;
+    font-size: calc(12rem/16);
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.calendar-section .main .wrapper .buttons{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+.calendar-section h3{
+    font-weight: 200;
+    font-size: calc(12rem/16);
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+}
+.calendar-section .buttons img{
+    width: 30px;
+}
+.calendar-section .main .wrapper .small{
+    width: 100px !important;
+}

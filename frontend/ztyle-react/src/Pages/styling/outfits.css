@@ -1,0 +1,102 @@
+.outfits-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+.outfits-section .create-button{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: calc(12rem/16);
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+}
+.outfits-section h1{
+    font-weight: 200;
+    font-size: calc(48rem/16);
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+}
+.outfits-section .panel{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+.outfits-section .panel .wrapper{
+    width: 183px;
+}
+.outfits-section .create-button img{
+    width: 30px;
+}
+.outfits-section .creation-section{
+    position: absolute;
+    display: flex;
+    top: 20%;
+    height: 100svh;
+}
+.outfits-section .creation-menu{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: aliceblue;
+    z-index: 10;
+    border-radius: 100px 0px 0px 100px;
+
+   
+}
+.outfits-section .items-menu-r .small{
+    width: 83px;
+} 
+.outfits-section .creation-menu .close-icon img{
+    width: 30px;
+    position: relative;
+    z-index:100;
+}
+.outfits-section .creation-section .items-menu-r{
+    position: relative;
+    width: 265px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(13.15px);
+    border-radius: 0px 100px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 0px;
+    flex-wrap: wrap;
+    overflow: scroll;
+    
+}
+.outfits-section .creation-section .creation-menu .cloth{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.outfits-section .creation-section .creation-menu .cloth img{
+    width: 100px;
+    position: relative;
+    
+}
+
+.outfits-section .creation-section .items-menu-r p{
+    font-size: calc(24rem/16);
+}

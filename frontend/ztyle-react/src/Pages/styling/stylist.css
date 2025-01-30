@@ -1,0 +1,153 @@
+.stylist-section{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+    align-items: center;
+}
+.stylist-section h1{
+    font-weight: 200;
+    font-size: calc(48rem/16);
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+}
+.stylist-section .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    width: 50%; 
+}
+.stylist-section .profile .pic img{
+    width: 200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.stylist-section .profile .name{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stylist-section .profile .name h1{
+    font-size: calc(18rem/16);
+    font-weight: 200;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+.stylist-section .profile .name h2{
+    padding: 0;
+    font-size: calc(12rem/16);
+    font-weight: 200;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+
+    margin:0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.stylist-section .profile .bio p{
+    margin: 0;
+    font-weight: 200;
+    font-size: calc(18rem/16);
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.17em;
+    color: #c6c6c6;
+}
+
+.stylist-section .attributes{
+    margin-top: 20px;
+}
+.stylist-section .attributes .wrapper{
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+    border: 0.5px solid #D9D9D9;
+    border-radius: 15px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.stylist-section .attributes .wrapper div{
+    display: flex;
+    gap:10px;
+    justify-content: left;
+    align-items: center;
+    height: 20px;
+}
+.stylist-section .attributes .wrapper div h1{
+    font-weight: 200;
+    font-size: calc(18rem/16);
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+}
+.stylist-section .attributes .wrapper .circles{
+    display: flex;
+    gap: 5px;
+}
+
+.stylist-section .buttons{
+    margin-top: 40px;
+}
+.stylist-section .buttons .wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.stylist-section .buttons .wrapper div{
+    display: flex;
+    gap:20px;
+    justify-content: left;
+    align-items: center;
+    height: 40px;
+}
+.stylist-section .buttons .wrapper div img{
+    width: 30px;
+    height: 30px;
+    aspect-ratio: 1/1;
+
+}
+.stylist-section .buttons .wrapper div h1{
+    font-weight: 200;
+    font-size: calc(14rem/16);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;   
+    cursor: pointer;
+
+}
+.stylist-section .buttons .wrapper div{
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
+}
+.stylist-section .buttons .wrapper div:hover{
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}

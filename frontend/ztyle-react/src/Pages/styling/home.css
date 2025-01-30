@@ -1,0 +1,36 @@
+.home-section{
+    position: absolute;
+    width: 100vw;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    top: 10%;
+    z-index: 0;
+
+}
+.home-section .wrapper1{
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+.home-section .wrapper1 p{
+    font-weight: 200;
+    font-size: calc(48rem/16);
+    line-height: calc(60rem/16);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+}
+.home-stylistbar{
+    position: absolute;
+
+}
+.home-navtab{
+    width: 20%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}

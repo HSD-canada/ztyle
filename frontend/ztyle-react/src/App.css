@@ -1,0 +1,48 @@
+.API{
+    content:"";
+    position: fixed;
+    height: 100svh;
+    width: 100vw;
+    z-index: -1;
+
+    top: 0;
+    right: 0;
+}
+
+.API .icon{
+    width: 30px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transition:  all 0.1s ease-in-out;
+
+}
+.API .icon:hover{
+    transform: scale(1.2);
+    transition:  all 0.1s ease-in-out;
+}
+.command-line-interface{
+    display: flex;
+    justify-content: top;
+
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    letter-spacing: 0.15em;
+    position: fixed;
+    top: 5svh;
+    left: 5vw;
+    width: 90vw;
+    height: 90svh;
+    z-index: 100000000000;
+    background-color: rgba(0, 0, 0, 0.513);
+    backdrop-filter: blur(10px);
+
+}
+.command-line-interface.hide{
+    display: none;
+}
+.submit-div {
+    margin-top: 5px;
+    text-align: center;
+}

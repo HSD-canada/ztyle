@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background-color: #1A1A1A;
+  font-family: 'Mulish';
+}
+
+@media (max-width:1600px) {
+  :root{
+    font-size: 14px;
+  }  
+}
+
+@media (max-width:1000px) {
+  :root{
+      font-size: 12px;
+  }
+  
+}
+
+

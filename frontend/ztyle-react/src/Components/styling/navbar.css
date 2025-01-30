@@ -1,0 +1,55 @@
+.navbar-section{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.navbar-section .wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-section .wrapper p{
+    font-weight: 200;
+    font-size: calc(24rem/16);
+    line-height: calc(28rem/16);
+    text-align: right;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+    position: absolute;
+    left:0;
+    margin-left: calc(55rem/16);
+    margin-top: calc(75rem/16);
+}
+.navbar-section .wrapper .logo{
+    width: calc(35rem/16);
+    height: auto;
+    margin-top: calc(25rem/16);;
+}
+.navbar-section .wrapper .stuff{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    right: 0;
+    padding-right: calc(55rem/16);
+    padding-top: calc(75rem/16);
+}
+.navbar-section .wrapper .profile,.navbar-section .wrapper .settings{
+    width: calc(28rem/16);
+
+   
+}
+.navbar-section .wrapper .settings{
+
+}
+@media (max-width:500px) {
+    .navbar-section .wrapper p{
+        display: none;
+    }
+    .navbar-section .wrapper .stuff{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+}
